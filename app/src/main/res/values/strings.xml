@@ -1,0 +1,60 @@
+<resources>
+
+    <string name="title_activity_mon_an">MonAnActivity</string>
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+    <string name="app_name">OderFood</string>
+    <string name="slogan"></string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="forgot_pass">Forgot Password ?</string>
+
+    <string name="facebook_app_id">428797714273348</string>
+    <string name="facebook_login_protocol_name">fb428797714273348</string>
+    <string name="title_activity_quan_ly_mon_an">QuanLyMonAn</string>
+    <string name="title_activity_dang_ky">DangKyActivity</string>
+    <string name="title_activity_dang_nhap">DangNhapActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <array name="loai">
+        <item>Tráng miệng</item>
+        <item>Gỏi nộm</item>
+        <item>Món hấp</item>
+        <item>Món nướng</item>
+        <item>Món chiên, xào</item>
+        <item>Cơm, cháo, mỳ</item>
+        <item>Rau, bún</item>
+        <item>Lẩu</item>
+        <item>Đồ uống</item>
+        <item>Khác...</item>
+    </array>
+    <array name="thang">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </array>
+    <array name="nam">
+        <item>2017</item>
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+        <item>2021</item>
+        <item>2022</item>
+
+    </array>
+    <string name="title_activity_information">Information</string>
+
+</resources>

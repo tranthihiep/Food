@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.DangKyActivity"
+    android:background="@drawable/moao">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        >
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edtTenKH"
+            android:hint="Tên khách hàng"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#0c1580"
+            android:text=""
+            android:textColor="#0c1580"
+            android:textSize="30sp"
+            app:met_baseColor="#0c1580"
+            app:met_floatingLabel="highlight"
+            app:met_maxCharacters="11"
+            app:met_primaryColor="#0c1580"
+            app:met_singleLineEllipsis="true"
+            />
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edtNgaySinh"
+            android:hint="Ngày sinh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#0c1580"
+            android:text=""
+            android:textColor="#0c1580"
+            android:textSize="30sp"
+            android:inputType="date"
+            app:met_baseColor="#0c1580"
+            app:met_floatingLabel="highlight"
+            app:met_maxCharacters="11"
+            app:met_primaryColor="#0c1580"
+            app:met_singleLineEllipsis="true"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginTop="5dp"
+            android:textColor="#0c1580"
+            android:text="Giới tính : "
+            android:textSize="30sp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RadioGroup
+            android:id="@+id/rggioitinhdki"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <RadioButton
+                android:textStyle="bold"
+                android:textColor="#0c1580"
+                android:id="@+id/radNam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Nam" />
+
+            <RadioButton
+                android:textStyle="bold"
+                android:textColor="#0c1580"
+                android:id="@+id/radNu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Nữ" />
+
+            <RadioButton
+                android:textStyle="bold"
+                android:textColor="#0c1580"
+                android:id="@+id/radKhac"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Khác" />
+        </RadioGroup>
+
+
+    </LinearLayout>
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/edtSDT"
+        android:hint="Số điện thoại"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#0c1580"
+        android:text=""
+        android:textColor="#0c1580"
+        android:textSize="30sp"
+        android:inputType="phone"
+        app:met_baseColor="#0c1580"
+        app:met_floatingLabel="highlight"
+        app:met_maxCharacters="11"
+        app:met_primaryColor="#0c1580"
+        app:met_singleLineEllipsis="true"
+        />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/edtMK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mật khẩu"
+        android:inputType="textPassword"
+        android:text=""
+        android:textColor="#0c1580"
+        android:textColorHint="#0c1580"
+        android:textSize="30sp"
+        app:met_baseColor="#0c1580"
+        app:met_floatingLabel="highlight"
+        app:met_maxCharacters="11"
+        app:met_primaryColor="#0c1580"
+        app:met_singleLineEllipsis="true" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:weightSum="4">
+        <Button
+            android:background="@drawable/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đăng ký"
+            android:layout_weight="2"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:textColor="#ff0073"
+            android:id="@+id/btnDangKy"/>
+        <Button
+            android:background="@drawable/button"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Trở về"
+            android:layout_weight="2"
+            android:textAllCaps="false"
+            android:textColor="#ff0073"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/btnTroVe"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context=".activity.QuanLyThongKe"
+    android:background="@drawable/moao">
+<LinearLayout
+    android:layout_weight="1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="3">
+    <Button
+        android:background="@drawable/button"
+        android:id="@+id/btnTKTNgay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Theo ngày"
+        android:layout_weight="1"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="148dp" />
+    <Button
+        android:layout_weight="1"
+        android:background="@drawable/button"
+        android:id="@+id/btnTKTThang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Theo tháng"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="148dp" />
+    <Button
+        android:layout_weight="1"
+        android:background="@drawable/button"
+        android:id="@+id/btnTKTQuy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Theo quý"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="148dp" />
+</LinearLayout>
+    <ListView
+        android:layout_weight="8"
+        android:id="@+id/lvTK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
+    <TextView
+        android:id="@+id/txtTT"
+        android:textColor="#090991"
+        android:layout_weight="1"
+        android:textSize="30dp"
+        android:text="Thành tiền: "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

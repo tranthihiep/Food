@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.AdminMain"
+    android:background="@drawable/moao">
+
+    <Button
+        android:background="@drawable/button"
+        android:id="@+id/btnQuanLyMonAn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quản lý món ăn"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="148dp" />
+    <Button
+        android:background="@drawable/button"
+        android:id="@+id/btnQuanLyKhachHang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quản lý khách hàng"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="148dp" />
+    <Button
+        android:background="@drawable/button"
+        android:id="@+id/btnQuanLyNhanVien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quản lý nhân viên"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="148dp" />
+    <Button
+        android:background="@drawable/button"
+        android:id="@+id/btnQuanLyHoaDon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quản lý hóa đơn"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="148dp" />
+    <Button
+        android:background="@drawable/button"
+        android:id="@+id/btnThongKe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thống kê báo cáo"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="148dp" />
+</LinearLayout>

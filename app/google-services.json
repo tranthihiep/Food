@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "918084117386",
+    "firebase_url": "https://goimon-ee1a2.firebaseio.com",
+    "project_id": "goimon-ee1a2",
+    "storage_bucket": "goimon-ee1a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:918084117386:android:95874dc2b4f5bccc",
+        "android_client_info": {
+          "package_name": "com.example.mshiep.food"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "918084117386-u9l3re9oggo4nj16edrp3pj9n8bj8ena.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCamrghe4uGUv_a_j_QeZu1MXDh1It_ESI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

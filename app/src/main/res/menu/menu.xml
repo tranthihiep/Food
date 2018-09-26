@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/menuHome"
+        android:icon="@drawable/ic_home"
+        android:title="Trang chủ">
+
+    </item>
+    <item
+        android:id="@+id/menuOrder"
+        android:icon="@drawable/shoppingcart"
+        android:title="Gọi món">
+
+    </item>
+    <item
+        android:id="@+id/menuInfor"
+        android:icon="@drawable/infor"
+        android:title="Thông tin">
+
+    </item>
+    <item
+        android:id="@+id/menuLogout"
+        android:icon="@drawable/ic_exit"
+        android:title="Log out">
+
+    </item>
+</menu>
